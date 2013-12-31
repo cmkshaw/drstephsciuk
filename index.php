@@ -4,10 +4,10 @@ require_once('includes/twitterapi_call.php');
 
 /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
 $settings = array(
-    'oauth_access_token' => "SECRET",
-    'oauth_access_token_secret' => "SECRET",
-    'consumer_key' => "SECRET",
-    'consumer_secret' => "SECRET"
+    'oauth_access_token' => "",
+    'oauth_access_token_secret' => "",
+    'consumer_key' => "",
+    'consumer_secret' => ""
 );
 
 /** URL for REST request, see: https://dev.twitter.com/docs/api/1.1/ **/
